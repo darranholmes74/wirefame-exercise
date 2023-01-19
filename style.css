@@ -1,0 +1,101 @@
+header {
+    background-color: rgb(60, 58, 58);
+    color: darkgray;
+    width: 100%;
+}
+
+#firstimg {
+    display: flex;
+    width: 960px;
+    height: 450px;
+    justify-content: center;
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    width: 100%;
+}
+
+.div2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 30px;
+
+}
+
+.div3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 30px;
+}
+
+
+#p1 {
+    color: black;
+    padding-left: -100px;
+}
+
+
+
+div.scroll {
+    margin: 4px, 4px;
+    padding: 4px;
+    height: 70%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+}
+
+button {
+    background-color: black;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.div2 img {
+    width: 300px;
+    height: 375px;
+}
+
+.div3 img {
+    width: 480px;
+    height: 400px;
+    width: 50%;
+}
+
+main {
+    width: 960px;
+    margin: auto;
+}
+
+.div4 {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+h3 {
+    display: flex;
+    background-color:  rgb(60, 58, 58);
+    height: 100px;
+}
